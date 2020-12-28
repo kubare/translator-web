@@ -156,51 +156,39 @@
 
 }
 
-.hero {
+.container {
     display: flex;
+    justify-content: center;
+    margin: 85px;
+    align-items: center;
+    text-align: center;
 }
 
-.textarea-input {
-    position: absolute;
-    top: 17%;
-    width: 450px;
-    height: 350px;
-    right: 45%;
-    border-radius: 15px;
-    border-color: #73b2f1;
+.textarea {
+    border-radius: 5px;
+    border-color: gray;
     font-size: 20px;
     outline: none;
     resize: none;
-    z-index: -1;
+    padding: 5px;
+    height: 450px;
+    width: 500px;
 }
 
 ::placeholder {
     color: gray;
     font-size: 1.1rem;
-    position: absolute;
-    margin-left: -2rem;
-    top: -5px;
   }
 
 .fa-pencil-alt {
-    position: absolute;
     color: #47a0f8;
     font-size: 35px;
-    margin-left: -15.5rem;
-    bottom: 15rem;
+    height: 450px;
 }
 
 .submit {
-    display: flex;
-    position: relative;
-    margin-left: 270px;
-    bottom: -170px;
-    justify-content: center;
-    align-items: center;
     text-decoration: none;
     padding: 10px 20px;
-    height: 10%;
-    width: 22%;
     border: none;
     outline: none;
     border-radius: 4px;
@@ -212,6 +200,15 @@
     background: #4837ff;
     transition: all 0.3s ease;
 }
+.item {
+    margin: 10px;
+    outline: none;
+    resize: none;
+}
 
-
+.fa-readme {
+color: #47a0f8;
+font-size: 35px;
+height: 450px;
+}
 

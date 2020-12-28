@@ -1,50 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" 
-    integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
-    
- 
-
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Navbar Section-->
     <nav class="navbar">
-        <div class="navbar__container">
-            <a href="/" id="navbar__logo"><i class="fas fa-language"></i> TŁUMACZ</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links"> ANG </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/tech.html" class="navbar__links"> NIE </a>
-                </li>
-                <li class="navbar__item">
-                    <a href="/" class="navbar__links"> FRA </a>
-                </li>
-            </ul>
+      <div class="navbar__container">
+        <a href="/" id="navbar__logo"><i class="fas fa-language"></i> TŁUMACZ</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="/" class="navbar__links"> ANG </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/tech.html" class="navbar__links"> NIE </a>
+          </li>
+          <li class="navbar__item">
+            <a href="/" class="navbar__links"> FRA </a>
+          </li>
+        </ul>
+      </div>
     </nav>
-    <!-- Hero Section -->
-    <div class="hero">
-        <div class="textarea-input">
-            <i class="fas fa-pencil-alt"></i>
-            <textarea id="textarea-input" class="textarea-input" placeholder="   
-    Wpisz tekst do przetłumaczenia" rows="30" cols="70"></textarea>
-            <input class="submit" type="submit" value="Przetłumacz">
-        </div>
+    <!-- Center Section -->
+    <div class="container">
+      <div class="item">
+        <i class="fas fa-pencil-alt"></i>
+      </div>
+
+      <div class="item">
+        <textarea
+          class="textarea"
+          placeholder="
+    Wpisz tekst do przetłumaczenia"
+          rows="30"
+          cols="70"
+        ></textarea>
+      </div>
+
+      <div class="item">
+        <input class="submit" type="submit" value="Przetłumacz" />
+      </div>
+
+      <div class="item">
+        <textarea
+          class="textarea"
+          rows="30"
+          cols="70"
+        ></textarea>
+      </div>
+
+      <div class="item">
+        <i class="fab fa-readme"></i>
     </div>
-    
+    </div>
+
+
     <script src="app.js"></script>
-</body>
+  </body>
 </html>
