@@ -20,7 +20,9 @@
     <!-- Navbar Section-->
     <nav class="navbar">
       <div class="navbar__container">
-        <a href="/" id="navbar__logo"><i class="fas fa-language"></i> TŁUMACZ</a>
+        <a href="/" id="navbar__logo"
+          ><i class="fas fa-language"></i> TŁUMACZ</a
+        >
         <div class="navbar__toggle" id="mobile-menu">
           <span class="bar"></span>
           <span class="bar"></span>
@@ -47,7 +49,7 @@
 
       <div class="item">
         <textarea
-          class="textarea"
+          id="inputjs" class="textarea"
           placeholder="
     Wpisz tekst do przetłumaczenia"
           rows="30"
@@ -56,22 +58,17 @@
       </div>
 
       <div class="item">
-        <input class="submit" type="submit" value="Przetłumacz" />
+        <input id="submitjs" class="submit" type="submit" value="Przetłumacz" />
       </div>
 
       <div class="item">
-        <textarea
-          class="textarea"
-          rows="30"
-          cols="70"
-        ></textarea>
+        <textarea readonly id="outputjs" class="textarea" rows="30" cols="70"></textarea>
       </div>
 
       <div class="item">
         <i class="fab fa-readme"></i>
+      </div>
     </div>
-    </div>
-
 
     <script src="app.js"></script>
   </body>
